@@ -19,6 +19,11 @@ const Title = styled.h2`
   color: #000000;
   justify-self: center;
   align-self: center;
+  text-align: center;
+
+  @media (max-width: 375px) {
+    font-size: 32px;
+  }
 `;
 
 const SubTitle = styled.p`
@@ -30,6 +35,11 @@ const SubTitle = styled.p`
   color: rgba(117, 108, 108, 0.57);
   justify-self: center;
   align-self: center;
+  text-align: center;
+
+  @media (max-width: 375px) {
+    font-size: 24px;
+  }
 `;
 
 const Total = styled.p`
