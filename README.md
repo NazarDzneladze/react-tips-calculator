@@ -68,7 +68,7 @@ This is an example of how to list things you need to use the software and how to
 
 Me in twitter - [@twitter_handle](https://twitter.com/twitter_handle) - nazar.dz055@mail.ru
 
-Project Link: [https://github.com/NazarDzneladze/react-tips-calculator.git](https://github.com/NazarDzneladze/react-tips-calculator.git)
+Project Link: [DEMO](https://nazardzneladze.github.io/react-tips-calculator/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
