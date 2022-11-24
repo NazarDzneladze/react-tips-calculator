@@ -16,6 +16,11 @@ const StyledInput = styled.input<{ hasFilter?: boolean }>`
     font-size: 18px;
     line-height: 26px;
   }
+
+  ::-webkit-inner-spin-button,
+  ::-webkit-outer-spin-button {
+    display: none;
+  }
 `;
 
 export { StyledInput };

@@ -1,8 +1,8 @@
 export type ButtonType = "button" | "submit" | "reset";
 
 export interface IOption {
-  value: optionValueType;
+  value: OptionValueType;
   label: string;
 }
 
-export type optionValueType = 10 | 15 | 20;
+export type OptionValueType = 10 | 15 | 20;

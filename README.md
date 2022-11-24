@@ -2,7 +2,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Нвигация</summary>
   <ol>
     <li>
       <a href="#о-проекте">О проекте</a>
@@ -17,6 +17,7 @@
         <li><a href="#установка">Установка</a></li>
       </ul>
     </li>
+	<li><a href="#demo">DEMO</a></li>
     <li><a href="#контакты">Контакты</a></li>
   </ol>
 </details>
@@ -25,24 +26,28 @@
 
 ## О проекте
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Этот маленький проект был создан исключительно для **учебных** целей. Все что он делает - подсчитывет сколько клиент заплатит чаевых в зависимости от:
+
+1. общего счета(`bill`)
+2. количества людей, пришедших вместе(`persons`).
+3. процент от итогового общего счета
+
+Кнопка подсчета(**Ohhhoooo 🍻**) не будет доступна для нажатия до тех пор, пока не будут введены данные в строки **_`Enter bill`_** и **_`Enter persons`_**.
 
 ### Построен с помощью
 
-- [![React][react.js]][react-url]
+- [React](https://reactjs.org)
+- [Styled components](https://styled-components.com)
+- [React-select](https://react-select.com/home)
+- [TypeScript](https://www.typescriptlang.org)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">К началу</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## Начало работы
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Предварительные условия
-
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
   ```sh
@@ -55,26 +60,23 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/NazarDzneladze/react-tips-calculator.git
    ```
-2. Install NPM packages
+2. Установить все зависимости проекта
    ```sh
    npm install
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">К началу</a>)</p>
+
+## Demo
+
+Демонстрационная версия проекта - [DEMO](https://nazardzneladze.github.io/react-tips-calculator/)
 
 <!-- CONTACT -->
 
 ## Контакты
 
-Me in twitter - [@twitter_handle](https://twitter.com/twitter_handle) - nazar.dz055@mail.ru
+Моя почта - nazar.dz055@mail.ru
 
-Project Link: [DEMO](https://nazardzneladze.github.io/react-tips-calculator/)
+Project Link: https://github.com/NazarDzneladze/react-tips-calculator
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[product-screenshot]: images/screenshot.png
-[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[react-url]: https://reactjs.org/
+<p align="right">(<a href="#readme-top">К началу</a>)</p>

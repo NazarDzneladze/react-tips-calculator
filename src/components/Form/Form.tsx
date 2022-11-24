@@ -27,14 +27,6 @@ export const Form = () => {
   const [tips, setTips] = useState<IOption>(options[0]);
   const [isDisable, setDisable] = useState(true);
 
-  useEffect(() => {
-    if (bill.value && personsCount.value !== "") {
-      setDisable(false);
-    } else {
-      setDisable(true);
-    }
-  }, [bill.value, personsCount.value]);
-
   const handleTotal = () => {
     const billTotalAmount = +bill.value * (1 + tips.value / 100);
     const amountPerEachPerson = billTotalAmount / +personsCount.value;
@@ -47,6 +39,14 @@ export const Form = () => {
       setTips(newValue);
     }
   };
+
+  useEffect(() => {
+    if (bill.value && personsCount.value !== "") {
+      setDisable(false);
+    } else {
+      setDisable(true);
+    }
+  }, [bill.value, personsCount.value]);
 
   return (
     <StyledForm>
